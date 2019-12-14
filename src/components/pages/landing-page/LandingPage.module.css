@@ -1,0 +1,19 @@
+.headerBox {
+  position: absolute;
+  top: 25%;
+  text-align: center;
+  font-family: "Alatsi", sans-serif;
+}
+
+.headerMain {
+  display: block;
+  font-size: 8vw;
+  color: #707070;
+}
+
+.headerSub {
+  display: block;
+  font-size: 2vw;
+  color: #55B591;
+  margin-bottom: 1rem;
+}

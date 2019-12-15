@@ -1,14 +1,14 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
 
+import './App.scss';
 import LandingPage from '../pages/landing-page/LandingPage';
 
-function App() {
+const App = () => {
   return (
-    <Container>
+    <div className="app">
       <LandingPage />
-    </Container>
+    </div>
   );
-}
+};
 
 export default App;

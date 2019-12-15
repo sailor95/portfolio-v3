@@ -1,18 +1,17 @@
 import React from 'react';
-import { Row, Col } from 'react-bootstrap';
 
-import classes from './LandingPage.module.css';
+import './LandingPage.scss';
 import LinksBox from './links-box/LinksBox';
 
 const LandingPage = () => (
-  <Row className="justify-content-center">
-    <Col xs="auto" className={classes.headerBox}>
-      <span className={classes.headerMain}>I am David Huang</span>
-      <span className={classes.headerSub}>Web Full-stack / Tech geek / All sorts of arts</span>
+  <div className="landingPage">
+    <div className="headerBox">
+      <span className="headerMain">I am David Huang</span>
+      <span className="headerSub">Web Full-stack / Tech geek / All sorts of arts</span>
 
       <LinksBox />
-    </Col>
-  </Row>
+    </div>
+  </div>
 );
 
 export default LandingPage;

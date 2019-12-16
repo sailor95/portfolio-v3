@@ -8,7 +8,7 @@ const LandingPage = () => (
   <div className="landingPage">
     <div className="headerBox">
       <span className="headerMain">I am David Huang</span>
-      <span className="headerSub">Web Full-stack / Tech geek / All sorts of arts</span>
+      <span className="headerSub">Web full-stack / Tech geek / All sorts of arts</span>
       <LinksBox />
     </div>
 

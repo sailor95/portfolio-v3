@@ -6,9 +6,9 @@ import CheckOutArrow from './check-out-arrow/CheckOutArrow';
 
 const LandingPage = () => (
   <div className="landingPage">
-    <div className="headerBox">
-      <span className="headerMain">I am David Huang</span>
-      <span className="headerSub">Web full-stack / Tech geek / All sorts of arts</span>
+    <div className="header">
+      <span className="header__main">I am David Huang</span>
+      <span className="header__sub">Web full-stack / Tech geek / All sorts of arts</span>
       <LinksBox />
     </div>
 

@@ -18,7 +18,7 @@
         fill: $thm-grey;
     }
 
-    .check-out-box__des {
+    &__des {
         font-size: 2rem;
         color: $thm-light-grey;
         display: block;
@@ -26,12 +26,12 @@
         font-family: "Calibri", sans-serif;
     }
 
-    .check-out-box__down-arrow {
+    &__down-arrow {
         width: 3rem;
         height: 3rem;
     }
 
-    .check-out-box__down-arrow path {
+    &__down-arrow path {
         fill: $thm-light-grey;
     }
 }

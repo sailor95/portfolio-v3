@@ -6,26 +6,26 @@
   cursor: default;
 }
 
-.headerBox {
+.header {
   position: absolute;
   top: 25%;
   left: 50%;
   transform: translate(-50%);
   text-align: center;
   font-family: "Alatsi", sans-serif;
-}
 
-.headerMain {
-  display: block;
-  font-size: 8vw;
-  color: $thm-grey;
-  white-space: nowrap;
-}
+  &__main {
+    display: block;
+    font-size: 8vw;
+    color: $thm-grey;
+    white-space: nowrap;
+  }
 
-.headerSub {
-  display: block;
-  font-size: 2vw;
-  color: $thm-green;
-  white-space: nowrap;
-  margin-bottom: 1rem;
+  &__sub {
+    display: block;
+    font-size: 2vw;
+    color: $thm-green;
+    white-space: nowrap;
+    margin-bottom: 1rem;
+  }
 }

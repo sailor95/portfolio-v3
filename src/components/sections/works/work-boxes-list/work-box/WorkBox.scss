@@ -1,0 +1,27 @@
+@import "../../../../../styles/variables";
+@import "../../../../../styles/float-grid";
+
+.work-box {
+  color: $thm-grey;
+  height: 35vh;
+
+  &__title {
+    padding-bottom: 1rem;
+    font-size: 2vw;
+    font-family: "Calibri", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid $thm-light-grey;
+  }
+
+  &__stacks {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    padding: 1rem 3rem;
+  }
+
+  &:hover {
+    outline-offset: 2rem;
+    outline: 1px solid $thm-grey;
+  }
+}

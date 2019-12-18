@@ -1,37 +1,37 @@
-@import '../../../../styles/configs';
+@import "../../../../styles/variables";
 
 .check-out-box {
-    position: absolute;
+  position: absolute;
+  display: block;
+  text-align: center;
+  bottom: 15%;
+  left: 50%;
+  transform: translate(-50%);
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:hover .check-out-box__des,
+  &:hover .check-out-box__down-arrow path {
+    color: $thm-grey;
+    fill: $thm-grey;
+  }
+
+  &__des {
+    font-size: 2rem;
+    color: $thm-light-grey;
     display: block;
-    text-align: center;
-    bottom: 15%;
-    left: 50%;
-    transform: translate(-50%);
+    margin-bottom: 1rem;
+    font-family: "Calibri", sans-serif;
+  }
 
-    &:hover {
-        cursor: pointer;
-    }
+  &__down-arrow {
+    width: 3rem;
+    height: 3rem;
+  }
 
-    &:hover .check-out-box__des,
-    &:hover .check-out-box__down-arrow path {
-        color: $thm-grey;
-        fill: $thm-grey;
-    }
-
-    &__des {
-        font-size: 2rem;
-        color: $thm-light-grey;
-        display: block;
-        margin-bottom: 1rem;
-        font-family: "Calibri", sans-serif;
-    }
-
-    &__down-arrow {
-        width: 3rem;
-        height: 3rem;
-    }
-
-    &__down-arrow path {
-        fill: $thm-light-grey;
-    }
+  &__down-arrow path {
+    fill: $thm-light-grey;
+  }
 }

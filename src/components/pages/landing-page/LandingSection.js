@@ -1,10 +1,10 @@
 import React from 'react';
 
-import './LandingPage.scss';
+import './LandingSection.scss';
 import LinksBox from './links-box/LinksBox';
 import CheckOutArrow from './check-out-arrow/CheckOutArrow';
 
-const LandingPage = () => (
+const LandingSection = () => (
   <div className="landingPage">
     <div className="header">
       <span className="header__main">I am David Huang</span>
@@ -16,4 +16,4 @@ const LandingPage = () => (
   </div>
 );
 
-export default LandingPage;
+export default LandingSection;

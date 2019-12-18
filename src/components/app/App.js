@@ -1,12 +1,12 @@
 import React from 'react';
 
 import './App.scss';
-import LandingPage from '../pages/landing-page/LandingPage';
+import LandingSection from '../pages/landing-page/LandingSection';
 
 const App = () => {
   return (
     <div className="app">
-      <LandingPage />
+      <LandingSection />
     </div>
   );
 };

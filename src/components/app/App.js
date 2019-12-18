@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './App.scss';
-import LandingSection from '../pages/landing-page/LandingSection';
+import LandingSection from '../sections/landing/LandingSection';
 
 const App = () => {
   return (

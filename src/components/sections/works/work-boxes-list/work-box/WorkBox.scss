@@ -2,11 +2,14 @@
 @import "../../../../../styles/float-grid";
 
 .work-box {
+  position: relative;
   color: $thm-grey;
   height: 35vh;
+  border: 1px solid $thm-light-grey;
+  border-radius: 10px;
 
   &__title {
-    padding-bottom: 1rem;
+    padding: 2rem 1rem;
     font-size: 2vw;
     font-family: "Calibri", sans-serif;
     font-weight: bold;
@@ -18,10 +21,45 @@
     font-size: 1.5rem;
     line-height: 1.5;
     padding: 1rem 3rem;
+    height: 50%;
   }
 
-  &:hover {
-    outline-offset: 2rem;
-    outline: 1px solid $thm-grey;
+  &__links {
+    position: absolute;
+    display: flex;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-around;
+
+    &--demo {
+      border: 1px solid $thm-light-grey;
+      padding: 3px 5px;
+      border-radius: 100px;
+      width: 40%;
+
+      &::before {
+        content: "";
+        vertical-align: middle;
+        display: inline-block;
+        height: 100%;
+      }
+    }
+
+    &--github {
+      display: inline-block;
+      border: 1px solid $thm-light-grey;
+      padding: 3px 5px;
+      border-radius: 100px;
+      width: 40%;
+    }
   }
+}
+
+.play-icon,
+.github-icon {
+  width: 2rem;
+  height: 2rem;
 }

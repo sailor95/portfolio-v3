@@ -7,22 +7,23 @@ const tempWorksData = [
   {
     id: 1,
     name: 'This Portfolio',
-    stacks: ['React', 'SCSS', 'Azure']
+    stacks: ['React', 'SCSS', 'Azure'],
+    demoLink: "",
+    github: ""
   },
   {
     id: 2,
     name: 'Hacker News SPA',
-    stacks: ['React', 'Redux', 'CSS Module', 'GCP']
+    stacks: ['React', 'Redux', 'CSS Module', 'GCP'],
+    demoLink: "",
+    github: ""
   },
   {
     id: 3,
     name: 'Unit Test Project',
-    stacks: ['Jest', 'Enzyme', 'ESLint']
-  },
-  {
-    id: 4,
-    name: 'SCSS Web Store',
-    stacks: ['SASS/SCSS', 'Webpack', 'Babel']
+    stacks: ['Jest', 'Enzyme', 'ESLint'],
+    demoLink: "",
+    github: ""
   }
 ];
 

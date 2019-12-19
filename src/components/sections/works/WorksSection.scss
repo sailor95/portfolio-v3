@@ -5,7 +5,7 @@
   cursor: default;
   margin-top: 8rem;
   // TODO: Remove fixed height
-  height: 95vh;
+  min-height: 95vh;
 
   &__header {
     color: $thm-grey;

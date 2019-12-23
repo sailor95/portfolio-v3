@@ -1,0 +1,31 @@
+@import '../../../styles/configs';
+
+.landingPage {
+  height: 95vh;
+  position: relative;
+  cursor: default;
+}
+
+.header {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  font-family: "Alatsi", sans-serif;
+
+  &__main {
+    display: block;
+    font-size: 8vw;
+    color: $thm-grey;
+    white-space: nowrap;
+  }
+
+  &__sub {
+    display: block;
+    font-size: 2vw;
+    color: $thm-green;
+    white-space: nowrap;
+    margin-bottom: 1rem;
+  }
+}

@@ -6,7 +6,7 @@ import WorksSction from '../sections/works/WorksSection';
 
 const App = () => {
   return (
-    <div className="app">
+    <div className="app container-fluid">
       <LandingSection />
       <WorksSction />
     </div>

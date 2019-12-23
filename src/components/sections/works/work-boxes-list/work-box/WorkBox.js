@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Col, Card, Button } from 'react-bootstrap';
 
 import './WorkBox.scss';
 import { ReactComponent as GitHubIcon } from 'res/github.svg';
@@ -11,28 +12,26 @@ const WorkBox = ({ workData }) => {
   ));
 
   return (
-    <div className="col-1-of-3">
-      <div className="work-box">
-        <div className="work-box__title">
+    <Col sm={12} md={4}>
+      <Card className="workbox">
+        <Card.Header>
           {workData.name}
-        </div>
-        <div className="work-box__detail">
-          <div className="work-box__stacks">
-            {renderStacks(workData.stacks)}
-          </div>
-          <div className="work-box__links">
-            <div className="work-box__links--demo">
-              <PlayIcon className="play-icon" />
-              <span>Demo</span>
-            </div>
-            <div className="work-box__links--github">
-              <GitHubIcon className="github-icon" />
-              <span>GitHub</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+        </Card.Header>
+        <Card.Body>
+          {renderStacks(workData.stacks)}
+        </Card.Body>
+        <Card.Footer className="d-flex justify-content-around">
+          <Button variant="secondary">
+            <PlayIcon className="play-icon mr-3" />
+            <span>Demo</span>
+          </Button>
+          <Button variant="secondary">
+            <GitHubIcon className="github-icon mr-3" />
+            <span>GitHub</span>
+          </Button>
+        </Card.Footer>
+      </Card>
+    </Col>
   );
 };
 

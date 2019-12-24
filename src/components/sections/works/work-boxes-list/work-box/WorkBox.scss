@@ -3,6 +3,10 @@
 .workbox {
   margin-bottom: 3rem;
 
+  .card-body>.blockquote-footer {
+    color: $thm-green;
+  }
+
   &>.card-header {
     font-size: 1.5rem;
   }

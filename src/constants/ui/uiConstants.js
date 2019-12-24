@@ -1,0 +1,50 @@
+export const tempWorksData = [
+  {
+    id: 1,
+    name: 'Hacker News SPA',
+    des: 'An SPA fetching Hacker News open API and sort into list view.',
+    stacks: ['React/Redux', 'CSS Module', 'GCP'],
+    demoLink: "",
+    github: "https://github.com/sailor95/hacker-news-spa",
+  },
+  {
+    id: 2,
+    name: 'React/Redux Web Store',
+    des: 'An eCommerce SPA.',
+    stacks: ['React/Redux', 'ES6', 'CSS module', 'BootStrap 4', 'Jest', 'Enzyme', 'ESLint', 'Webpack', 'Babel', 'Ruby on Rails'],
+    demoLink: "",
+    github: "https://github.com/sailor95/redux-ecommerce-spa",
+  },
+  {
+    id: 3,
+    name: 'ASP.NET MVC Web Store',
+    des: 'MVC web store using ASP.NET MVC, Entity Framework and jQuery.',
+    stacks: ['ASP.NET MVC', 'Entity Framework', 'MS SQL', 'Razor', 'Vanilla JavaScript', 'jQuery'],
+    demoLink: "",
+    github: "https://github.com/sailor95/asp-net-mvc-web-store",
+  },
+  {
+    id: 4,
+    name: 'React Unit Test Project',
+    des: 'Unit test project using Jest and Enzyme to simulate front-end unit test.',
+    stacks: ['Jest', 'Enzyme', 'ESLint', 'Moxios', 'Redux-promise'],
+    demoLink: "",
+    github: "https://github.com/sailor95/react-testing-practice",
+  },
+  {
+    id: 5,
+    name: 'SCSS Web Store',
+    des: 'Responsive web store using pure SASS/SCSS. It covers float, flexbox and grid layout.',
+    stacks: ['SASS', 'SCSS', 'HTML 5'],
+    demoLink: "",
+    github: "https://github.com/sailor95/scss-web-store",
+  },
+  {
+    id: 6,
+    name: 'Responsive CSS Grid Dashboard',
+    des: 'Responsive dashboard using CSS Grid.',
+    stacks: ['CSS', 'Vanilla JavaScript'],
+    demoLink: "",
+    github: "https://github.com/sailor95/css-grid-dashboard",
+  }
+];

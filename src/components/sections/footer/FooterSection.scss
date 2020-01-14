@@ -1,0 +1,17 @@
+@import "../../../styles/variables";
+
+footer {
+  text-align: center;
+
+  .footer__upper {
+    padding: 1rem;
+    background-color: $thm-light-grey;
+  }
+
+  .footer__lower {
+    color: $thm-white;
+    background-color: $thm-grey;
+    padding: 3px;
+  }
+
+}

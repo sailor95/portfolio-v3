@@ -1,15 +1,15 @@
-@import '../../../../styles/configs';
+@import "../../../../styles/variables";
 
-a {
+.linkAnchor {
   display: inline-block;
   margin: 1.5rem;
 }
 
-.linksBoxSvg {
-  width: 3rem;
-  height: 3rem;
+.linksSvg {
+  width: 2rem;
+  height: 2rem;
 }
 
-.linksBoxSvg path {
+.linksSvg path {
   fill: $thm-grey;
 }

@@ -1,0 +1,16 @@
+@import "../../../styles/variables";
+
+.works-section {
+  position: relative;
+  cursor: default;
+  margin-top: 8rem;
+  // TODO: Remove fixed height
+  min-height: 95vh;
+
+  &__header {
+    color: $thm-grey;
+    text-align: center;
+    font-size: 6rem;
+    font-family: "Calibri", sans-serif;
+  }
+}

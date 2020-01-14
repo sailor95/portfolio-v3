@@ -8,28 +8,28 @@ import { ReactComponent as MediumLogo } from 'res/medium.svg';
 const SocialMediaLinksBox = () => (
   <>
     <a
-      className="linkBoxAnchor"
+      className="socialLinkAnchor"
       href="https://github.com/sailor95"
       target="_blank"
       rel="noopener noreferrer"
     >
-      <GitHubLogo className="linksBoxSvg" alt="github" />
+      <GitHubLogo className="socialLinkSvg" alt="github" />
     </a>
     <a
-      className="linkBoxAnchor"
+      className="socialLinkAnchor"
       href="https://www.linkedin.com/in/tsung-wei-huang-217561179/"
       target="_blank"
       rel="noopener noreferrer"
     >
-      <LinkedInLogo className="linksBoxSvg" alt="linkedin" />
+      <LinkedInLogo className="socialLinkSvg" alt="linkedin" />
     </a>
     <a
-      className="linkBoxAnchor"
+      className="socialLinkAnchor"
       href="https://medium.com/sailor-spaceship"
       target="_blank"
       rel="noopener noreferrer"
     >
-      <MediumLogo className="linksBoxSvg" alt="medium" />
+      <MediumLogo className="socialLinkSvg" alt="medium" />
     </a>
   </>
 );
